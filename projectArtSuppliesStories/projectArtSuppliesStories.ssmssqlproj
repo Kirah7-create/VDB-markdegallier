@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="projectArtSuppliesStories">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="ZAAKIRAHMEEKS:ZAAKIRAHMEEKS\zaaki">
+          <Created>2024-09-30T18:28:46.6053927-04:00</Created>
+          <Type>SQL</Type>
+          <Server>ZAAKIRAHMEEKS</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>ArtSuppliesStore</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <TrustServerCertificate>True</TrustServerCertificate>
+          <HostNameInServerCertificate />
+          <EncryptionOption>True</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="scriptArtSuppliesStore.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ZAAKIRAHMEEKS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ZAAKIRAHMEEKS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>scriptArtSuppliesStore.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items>
+        <FileNode Name="AddressData.png">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>AddressData.png</FullPath>
+        </FileNode>
+        <FileNode Name="AddressTable.png">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>AddressTable.png</FullPath>
+        </FileNode>
+        <FileNode Name="EntityWorksheet.txt">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>EntityWorksheet.txt</FullPath>
+        </FileNode>
+        <FileNode Name="InvoiceTable2.png">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>InvoiceTable2.png</FullPath>
+        </FileNode>
+        <FileNode Name="InvoiceTableandData.png">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>InvoiceTableandData.png</FullPath>
+        </FileNode>
+        <FileNode Name="LineItemTableandData.png">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>LineItemTableandData.png</FullPath>
+        </FileNode>
+        <FileNode Name="PersonTable1.png">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PersonTable1.png</FullPath>
+        </FileNode>
+        <FileNode Name="personTable2.png">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>personTable2.png</FullPath>
+        </FileNode>
+        <FileNode Name="PersonTable3.png">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PersonTable3.png</FullPath>
+        </FileNode>
+        <FileNode Name="PersonTableData.png">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PersonTableData.png</FullPath>
+        </FileNode>
+        <FileNode Name="ProductServiceData.png">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>ProductServiceData.png</FullPath>
+        </FileNode>
+        <FileNode Name="ProductServiceTable.png">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>ProductServiceTable.png</FullPath>
+        </FileNode>
+        <FileNode Name="ProductServiceTable2.png">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>ProductServiceTable2.png</FullPath>
+        </FileNode>
+        <FileNode Name="RecieptTableandData.png">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>RecieptTableandData.png</FullPath>
+        </FileNode>
+        <FileNode Name="UserStories.txt">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>UserStories.txt</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

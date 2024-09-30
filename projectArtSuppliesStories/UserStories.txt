@@ -1,0 +1,11 @@
+User story format: "As a <user type>, I want to <some goal> so that I can <(optional) for some reason>"
+
+As an Administrator, I want to view receipts of customers to verify the amount of products that are being sold.
+
+As a Curator, I want to see a list of products so that I can choose the appropriate artists to hire for a workshop.
+
+As Customer Support Manager, I want to view customer contact information so that I can send them surveys.
+
+As a Store Manager, I want to a list of products so that I can do inventory.
+
+As an Artist, I want to see a list of customers who sign up for my workshop.

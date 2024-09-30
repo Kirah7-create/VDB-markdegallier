@@ -1,0 +1,59 @@
+Business transactions:
+Invoice(ID,Invoice_Date,Due_Date,Invoice_Total, Description,Quantity,Person_ID,Product_ID,Subtotal)
+Receipt(ID,Receipt_Date,Invoice_ID,Payment_Amount,Payment_ID,Person_ID,)
+
+Note: person _IDs can be for either customers or members
+
+
+
+Transaction line items:
+LineItems(ID,Product_ID,Unit_Price,Invoice_ID,Quantity,Invoice_Total)
+ 
+
+
+Product or service related to a transaction:
+Product/Service(ID,Name,Category,Service_Type,Description,Price,Duration,Frequency,Artist_ID)
+
+
+Roles of people:
+Customer(ID,First_Name,Last_Name,Address,Phone_Number,Email_Address,Member_Join_Date) 
+Artist(ID,First_Name,Last_Name,Address,Phone_Number,Skills,Contractor_Hire_Date)
+Curator(ID,First_Name,Last_Name,Address,Phone_Number,Employee_Hire_Date) 
+Customer_Support_Manager(ID,First_Name,Last_Name,Address,Phone_Number,Employee_Hire_Date))
+Store_Manager(ID,First_Name,Last_Name,Address,Phone_Number,Employee_Hire_Date)) 
+ 
+
+Place of transaction or service:
+Workshop(ID,Title,Description,Price,Duration,Artist_ID,Location)
+
+ 
+Noteworthy events:
+Due_Date
+Contract_Date
+Hire_Date,
+
+ 
+
+Physical objects:
+Person(ID,First_Name,Last_Name,Address,Phone_Number,Member_Join_Date,Skills,Contractor_Hire_Date,Employee_Hire_Date)
+Product/(ID,Title,Description,Price)
+Subscription_Box(ID,Title,Description,Frequency,Description,Price)
+ 
+
+
+Locations:
+Workshop(ID,Title,Description,Price,Duration,Artist_ID,Location)
+ 
+
+
+Descriptions of things (text, unit of measurement, time period, etc.):
+Product/Services Types are Art/Supplies,Subscription_Boxes,Workshops,Member_Discounts
+Artists conduct workshops and are contractors, not employees.
+
+ 
+Catalogs:
+ 
+Containers of other things:
+ 
+Things in a container:
+

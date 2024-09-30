@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 20.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "projectArtSuppliesStories", "projectArtSuppliesStories\projectArtSuppliesStories.ssmssqlproj", "{0D0F157F-C4B0-4264-B57C-287A2272BCD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F4D3789-2CC6-4704-93CF-051ED4EB96F1}.Default|Default.ActiveCfg = Default
+		{0D0F157F-C4B0-4264-B57C-287A2272BCD1}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B0CE738-07AF-4FF4-87B4-18A5EC800F2A}
+	EndGlobalSection
+EndGlobal
