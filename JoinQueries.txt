@@ -1,0 +1,32 @@
+-- Apartment, Building
+SELECT Apartment.*, Building.*, Building.Building_Name AS Expr11
+FROM   Apartment INNER JOIN
+             Building ON Apartment.Building_ID = Building.Building_ID
+ORDER BY Expr11
+
+
+-- Person, Address
+SELECT Person.Last_Name AS Expr21, Address.*, Person.*
+FROM   Address INNER JOIN
+             Person ON Address.Address_ID = Person.Address_ID
+ORDER BY Person.Last_Name
+
+
+-- Building, Address
+SELECT Building.Building_Name, Building.Building_Name AS Expr11, Address.Address_ID AS Expr1
+FROM   Building INNER JOIN
+             Address ON Building.Address_ID = Address.Address_ID
+ORDER BY Address.City
+
+
+-- Receipt, Invoice
+SELECT Invoice.*, Receipt.*
+FROM   Receipt INNER JOIN
+             Invoice ON Receipt.Invoice_ID = Invoice.InvoiceID
+
+
+-- LineItem, Product
+SELECT Product.Price, Product.Name, LineItem.Qty
+FROM   LineItem INNER JOIN
+             Product ON LineItem.Product_ID = Product.Product_ID
+WHERE (LineItem.Invoice_ID = 1)
